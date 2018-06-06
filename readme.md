@@ -1,0 +1,1 @@
+#Respostas da Avaliação 2 da disciplina de Linguagem de Programação 1
