@@ -1,3 +1,5 @@
 Questão 2
 
--
+- Conteiners são estruturas que armazenam conjuntos de objetos, geralmente são implementados como templates para que seja possível tratar vários tipos de elementos com a mesma implementação.
+- Iteradores são basicamente ponteiros que apontam para um elemento de um conteiner.
+- Os elementos da STL se baseiam em iteradores porque assim é possível operar sobre os elementos de qualquer estrutura independente do tipo de estrutura que seja, como um vector ou uma lista por exemplo, pois os iteradores operam da mesma forma sobre qualquer que seja o elemento.

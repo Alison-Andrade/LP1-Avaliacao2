@@ -1,5 +1,7 @@
 Questão 1
 
 -Um método virtual, é um método que permite que seja ele seja reescrito através de polimorfismo em classes herdeiras da classe a qual ele pertence, porém possui uma execução padrão para o caso de não ser reescrito. Um método virtual puro, é um método virtual que não possui uma execução padrão, obrigando assim que seja definido por toda classe que herdar a classe a qual ele pertence.
--Classe abstrata (virtual), é uma classe que possui pelo menos um método virtual. Classes abstratas não podem ser instanciadas.
--A Interface, é uma classe abstrata onde todos os seus métodos são virtuais.
+-Classe abstrata (virtual), é uma classe que possui pelo menos um método virtual puro. Classes abstratas não podem ser instanciadas.
+-A Interface, é uma classe abstrata onde todos os seus métodos são virtuais puros, ou seja, não há implementação em uma interface.
+
+-As Interfaces são úteis quando se tem várias uotras classes com caracteristicas em comum porém executam essas métodos todos de forma diferente entre si.
