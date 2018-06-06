@@ -1,0 +1,4 @@
+Questão 8
+
+A definição desse template cria uma sobrecarga do tipo ostream para toda classe que criar uma sobrecarga do operador '<<',
+o que pode causar erro uma vez que a classe pode não possuir um método print().
