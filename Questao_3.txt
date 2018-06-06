@@ -1,0 +1,18 @@
+Questão 3
+
+- A função "misterio" retorna um iterador para a posição do primeiro valor maior que a média
+da soma de todos os elementos do conjunto.
+
+
+	int main(){
+		
+		std::vector<int> v;
+
+		for(unsigned i = 1; i <= 10; i++) {
+			v.push_back(i+1);
+		}
+
+		std::cout << *misterio(v.begin(), v.end()) << std::endl;
+
+		return 0;
+	}
